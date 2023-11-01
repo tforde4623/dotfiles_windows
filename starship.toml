@@ -1,0 +1,8 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+format = '$directory($git_branch)> '
+
+[directory]
+style = '#859900'
+
+[git_branch]
+format = '[\($branch\)](#268bd2)'
