@@ -8,6 +8,13 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
+    use {
+        "nvim-telescope/telescope-file-browser.nvim",
+        requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+    }
+
+    use 'nvim-tree/nvim-web-devicons'
+
     -- themes
     use 'tjdevries/colorbuddy.nvim'
     use 'svrana/neosolarized.nvim'

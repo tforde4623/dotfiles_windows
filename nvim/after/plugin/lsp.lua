@@ -57,6 +57,18 @@ lsp.set_preferences({
     }
 })
 
+--vim.lsp.start({
+--    name = 'c_sharper',
+--    cmd = {'c_sharper'},
+--    root_dir = vim.fs.dirname(vim.fs.find({ 'Cargo.toml' }, { upward = true })[1])
+--})
+
+--vim.api.nvim_create_autocmd('LspAttach', {
+--    callback = function(args)
+--        print(vim.inspect(args));
+--    end
+--})
+
 lsp.on_attach(function(client, bufnr)
   local opts = {buffer = bufnr, remap = false}
 

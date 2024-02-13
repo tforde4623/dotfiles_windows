@@ -18,3 +18,10 @@ vim.opt.expandtab = true
 vim.opt.smartindent = true
 
 vim.opt.termguicolors = true
+
+vim.g.python3_host_prog = '~/AppData/Local/Programs/Python/Python312/python.exe'
+vim.g.python_host_prog = '~/AppData/Local/Programs/Python/Python312/python.exe'
+
+vim.opt.splitright = true
+
+vim.o.guifont = "Menlo Regular"
